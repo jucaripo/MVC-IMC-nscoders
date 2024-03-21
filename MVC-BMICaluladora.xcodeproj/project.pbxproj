@@ -11,6 +11,8 @@
 		316E5ECF2BABDB1F00FE1070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316E5ECE2BABDB1F00FE1070 /* ContentView.swift */; };
 		316E5ED12BABDB2300FE1070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316E5ED02BABDB2300FE1070 /* Assets.xcassets */; };
 		316E5ED42BABDB2300FE1070 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316E5ED32BABDB2300FE1070 /* Preview Assets.xcassets */; };
+		316E5EDB2BABDE0C00FE1070 /* BMIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316E5EDA2BABDE0B00FE1070 /* BMIModel.swift */; };
+		316E5EDD2BABDE9300FE1070 /* BMIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316E5EDC2BABDE9300FE1070 /* BMIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		316E5ECE2BABDB1F00FE1070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		316E5ED02BABDB2300FE1070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		316E5ED32BABDB2300FE1070 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		316E5EDA2BABDE0B00FE1070 /* BMIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIModel.swift; sourceTree = "<group>"; };
+		316E5EDC2BABDE9300FE1070 /* BMIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				316E5ECE2BABDB1F00FE1070 /* ContentView.swift */,
 				316E5ED02BABDB2300FE1070 /* Assets.xcassets */,
 				316E5ED22BABDB2300FE1070 /* Preview Content */,
+				316E5EDA2BABDE0B00FE1070 /* BMIModel.swift */,
+				316E5EDC2BABDE9300FE1070 /* BMIController.swift */,
 			);
 			path = "MVC-BMICaluladora";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				316E5ECF2BABDB1F00FE1070 /* ContentView.swift in Sources */,
 				316E5ECD2BABDB1F00FE1070 /* MVC_BMICaluladoraApp.swift in Sources */,
+				316E5EDD2BABDE9300FE1070 /* BMIController.swift in Sources */,
+				316E5EDB2BABDE0C00FE1070 /* BMIModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
